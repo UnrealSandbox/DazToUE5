@@ -1,0 +1,82 @@
+{
+	"FileVersion": 3,
+	"Version": 2022,
+	"VersionName": "5.1.0",
+	"FriendlyName": "DazToUnreal",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "David Vodhanel",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/daz3d/DazToUnreal#readme",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/070a312bc04c48bcb1a4d193aaddf73e",
+	"SupportURL": "https://github.com/daz3d/DazToUnreal/issues",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DazToUnreal",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "DazToUnrealDeveloper",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "DazToUnrealRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "IKRig",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "AlembicImporter",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "MLDeformerFramework",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "NNI",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "NeuralMorphModel",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "VertexDeltaModel",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}

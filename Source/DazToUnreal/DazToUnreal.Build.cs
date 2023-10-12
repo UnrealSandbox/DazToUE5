@@ -50,7 +50,7 @@ public class DazToUnreal : ModuleRules
 		PrivateDependencyModuleNames.Add("AlembicLibrary");
 		PrivateDependencyModuleNames.Add("AlembicImporter");
 		PrivateDependencyModuleNames.Add("MLDeformerFramework");
-		PrivateDependencyModuleNames.Add("NeuralNetworkInference");
+		//PrivateDependencyModuleNames.Add("NeuralNetworkInference");
 #endif
 
 		DynamicallyLoadedModuleNames.AddRange(
